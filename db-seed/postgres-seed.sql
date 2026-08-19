@@ -1,0 +1,3 @@
+-- The auth service creates its own table on startup (see src/db.js),
+-- this file is only here if you want a deterministic reset during testing.
+-- CREATE TABLE IF NOT EXISTS users (...) is handled by the app itself.
